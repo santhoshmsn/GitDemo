@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="66653" started-at="2022-04-29T06:32:28Z" finished-at="2022-04-29T06:33:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="66653" started-at="2022-04-29T06:32:28Z" finished-at="2022-04-29T06:33:34Z">
+      <class name="Academy.validateJavaTest">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:Academy.validateJavaTest@3d8c7aca]" name="basePageNavigation" duration-ms="2794" started-at="2022-04-29T12:02:48Z" finished-at="2022-04-29T12:02:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+      </class> <!-- Academy.validateJavaTest -->
+      <class name="Academy.HomePageTest">
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Academy.HomePageTest@4e04a765]" name="intialize" is-config="true" duration-ms="2512" started-at="2022-04-29T12:02:28Z" finished-at="2022-04-29T12:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="intialize()[pri:0, instance:Academy.validateJavaTest@3d8c7aca]" name="intialize" is-config="true" duration-ms="17613" started-at="2022-04-29T12:02:30Z" finished-at="2022-04-29T12:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@4e04a765]" name="basePageNavigation" duration-ms="27623" started-at="2022-04-29T12:02:51Z" data-provider="getData" finished-at="2022-04-29T12:03:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePageTest@4e04a765]" name="basePageNavigation" duration-ms="15836" started-at="2022-04-29T12:03:18Z" data-provider="getData" finished-at="2022-04-29T12:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonrestricteduser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[56789]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non Restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.HomePageTest@4e04a765]" name="teardown" is-config="true" duration-ms="146" started-at="2022-04-29T12:03:34Z" finished-at="2022-04-29T12:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.validateJavaTest@3d8c7aca]" name="teardown" is-config="true" duration-ms="114" started-at="2022-04-29T12:03:34Z" finished-at="2022-04-29T12:03:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
